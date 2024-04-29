@@ -1,7 +1,8 @@
 package br.com.gerenciamentopessoas.controller;
 
+import br.com.gerenciamentopessoas.converter.PessoaConverter;
+import br.com.gerenciamentopessoas.dto.PessoaDto;
 import br.com.gerenciamentopessoas.service.PessoaService;
-import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -15,10 +16,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class PessoaController {
   private final PessoaService pessoaService;
+  private final PessoaConverter pessoaConverter;
 
   @PostMapping
-  public void save() {
-    pessoaService.save(null);
+  public void save(PessoaDto dto) {
+    pessoaService.save(pessoaConverter.toEntity(dto));
   }
 
   @GetMapping
@@ -27,17 +29,17 @@ public class PessoaController {
   }
 
   @DeleteMapping
-  public void delete() {
-    pessoaService.delete(null);
+  public void delete(Long id) {
+    pessoaService.delete(id);
   }
 
   @PutMapping
-  public void update() {
-    pessoaService.update(null, null);
+  public void update(PessoaDto dto, Long id) {
+    pessoaService.update(id, pessoaConverter.toEntity(dto));
   }
 
   @GetMapping
-  public void findById() {
-    pessoaService.findById(null);
+  public void findById(Long id) {
+    pessoaService.findById(id);
   }
 }
