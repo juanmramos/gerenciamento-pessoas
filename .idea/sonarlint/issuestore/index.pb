@@ -17,3 +17,9 @@ z
 Jsrc/main/java/br/com/gerenciamentopessoas/controller/PessoaController.java,b/4/b40554370ae05ee72e6cdf95184e7a494eb174b2
 l
 <src/main/java/br/com/gerenciamentopessoas/dto/PessoaDto.java,a/4/a41dc291d385020892bf9e69b3ad744cc2753545
+x
+Hsrc/main/java/br/com/gerenciamentopessoas/converter/PessoaConverter.java,7/3/73768efb133d8a1a2482f6d7f4ba233669b263da
+
+Q.idea/sonarlint/securityhotspotstore/7/3/73768efb133d8a1a2482f6d7f4ba233669b263da,d/e/dec47378def05768df8234c2f3da105448851cbe
+w
+G.idea/sonarlint/issuestore/7/3/73768efb133d8a1a2482f6d7f4ba233669b263da,4/d/4d3cd6f96c45609d719437fa54af03681bc7409b
