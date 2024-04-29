@@ -12,6 +12,7 @@ import lombok.Setter;
 @Setter
 @Embeddable
 public class EnderecoEntity {
+
   private Long id;
   private String logradouro;
   private String numero;
