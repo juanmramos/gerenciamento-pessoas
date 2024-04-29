@@ -1,0 +1,19 @@
+
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+7
+pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+r
+Bsrc/main/java/br/com/gerenciamentopessoas/entity/PessoaEntity.java,e/2/e254ccb9d317f8b0b6d5d42fe503628f84079d8e
+t
+Dsrc/main/java/br/com/gerenciamentopessoas/entity/EnderecoEntity.java,d/4/d4afb07792bdbe580489cc6af608202ce92361b7
+C
+docker-compose.yaml,e/f/ef8def03dc8f162799089e9b5f4321201c8810d5
+{
+Ksrc/main/java/br/com/gerenciamentopessoas/repository/PessoaRespository.java,f/f/ff237b03f0ea183fa14a7dd81863d1de61df8af4
+t
+Dsrc/main/java/br/com/gerenciamentopessoas/service/PessoaService.java,e/f/efc9915b5946795280efe53fd3d03e122bcb39bf
+z
+Jsrc/main/java/br/com/gerenciamentopessoas/controller/PessoaController.java,b/4/b40554370ae05ee72e6cdf95184e7a494eb174b2
+l
+<src/main/java/br/com/gerenciamentopessoas/dto/PessoaDto.java,a/4/a41dc291d385020892bf9e69b3ad744cc2753545
